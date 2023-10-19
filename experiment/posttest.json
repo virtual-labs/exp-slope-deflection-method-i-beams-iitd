@@ -1,13 +1,12 @@
 {
   "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
+  "questions": [{
+      "question": "1. In cantilever beam, slope and deflection at free end is _____",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "zero",
+        "b": "maximum",
+        "c": "minimum",
+        "d": "none of the above"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +14,50 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Which of the following statements is/are true for a simply supported beam?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Deflection at supports in a simply supported beam is maximum",
+        "b": "Deflection is maximum at a point where slope is zero",
+        "c": "Slope is minimum at supports in a simply supported beam",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The slope-deflection equations relate _______ .",
+      "answers": {
+        "a": "Rotations and axial loads",
+        "b": "Moments and shears",
+        "c": "Forces and deformations",
+        "d": "Displacements and support reactions"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The three moments equation is applicable only when _______.",
+      "answers": {
+        "a": "The beam is prismatic",
+        "b": "There is no settlement of supports",
+        "c": "There is no discontinuity such as hinges within the span",
+        "d": "The spans are equal"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +66,23 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The fixed support in a real beam becomes in the conjugate beam a_______ .",
+      "answers": {
+        "a": "Roller support",
+        "b": "Determine support reactions",
+        "c": "Ensure that forces and moments are in balance",
+        "d": "Find axial forces"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Hinged support",
+        "c": "Fixed support",
+        "d": "Free end"
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
