@@ -1,13 +1,46 @@
 {
   "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
+  "questions": [{
+      "question": "1. The vertical distance between the axis of the beam before and after loading at a point is called as?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": " Deformation",
+        "b": "Deflection",
+        "c": "Slope",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which of the following is not an assumption of the slope deflection method?",
+      "answers": {
+        "a": " Elastic behavior of materials",
+        "b": "Rigid joints with no relative rotation",
+        "c": "Large deformations",
+        "d": "Small deformations"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3.In the slope deflection equations, the deformations are considered to be caused by_______",
+      "answers": {
+        "a": "Bending moment",
+        "b": "Shear force",
+        "c": "Axial force",
+        "d": "Moments"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +52,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "4. What is the primary objective of using the slope deflection method?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Calculate deflections in a structure.",
+        "b": "Determine support reactions",
+        "c": "Find the external loads on a structure",
+        "d": "Analyze internal forces and deformations in indeterminate structures"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,7 +65,24 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The slope deflection method is a _______.",
+      "answers": {
+        "a": "Numerical technique",
+        "b": "Analytical technique",
+        "c": "Empirical method",
+        "d": "Experimental method"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
