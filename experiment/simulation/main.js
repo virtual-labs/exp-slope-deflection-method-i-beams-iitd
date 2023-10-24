@@ -778,13 +778,19 @@ function navNext1f()
 {
 document.getElementById("canvas1e").style.visibility="hidden";
 document.getElementById("canvas1f").style.visibility="visible";
-document.getElementById("nextButton6").style.visibility="hidden";
+document.getElementById("nextButton6").style.visibility="visible";
 document.getElementById('addspecimen6').style.visibility="visible";
 document.getElementById('addspecimen6').style.animation="addspecimen6 2s forwards";
 }
 
 
+function navNext1h()
+{
+document.getElementById("canvas1f").style.visibility="hidden";
+document.getElementById("canvas1h").style.visibility="visible";
+document.getElementById("addspecimen4").style.visibility="visible";
 
+}
 
 
 

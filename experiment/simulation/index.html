@@ -239,7 +239,7 @@ style="position: absolute;
             width: 600px;
             visibility: hidden;
             "draggable="false"/>
-        <span style="position: absolute; left: 250px; top: 10px; font-size:17px; "><strong><u>Calculation of Fixed End Moments</u></strong></span>
+        <span style="position: absolute; left: 40px; top: 10px; font-size:17px; "><strong><u>Beam having point load of 50KN at distance of 2m from point A and a UDL over the span of 5m </u></strong></span>
         <button id="button50" style="position: absolute; left: 360px; top: 340px; width: 80px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="navNext1b()">Split</button>
         <span class="blink_me" id="arw1" style="position: absolute;font-size: 30px;left: 325px; top: 332px;"><strong><i class="fa fa-arrow-right"></i></strong></span>
         
@@ -258,7 +258,7 @@ style="position: absolute;
     <body>
         <div id="transwhite1" style="width: 400px; top:30px; height: 485px; margin-top: -20px; position: absolute; left:390px;"></div>
 
-        <span style="position: absolute; left: 80px; top: 10px; font-size:17px; "><strong><u>Calculation of Fixed End Moments</u></strong></span>
+        <span style="position: absolute; left: 40px; top: 10px; font-size:17px; "><strong>Step- 1<u> Calculation of Fixed End Moments</u></strong></span>
 
 
         <p class="incanvas" id="text1" style="font-size:17px; position: absolute; left: 400px; top: 8px;"><u> For Span AB </u></p>
@@ -276,7 +276,7 @@ style="position: absolute;
         <div id="box2"  style="width: 250px; top:180px; height: 30px; margin-top: -20px; position: absolute; left:470px;"></div>
         <p class="incanvas" id="text5" style="font-size:17px; position: absolute; left: 480px; top: 154px;"><strong>M<sup>F</sup><sub>BA</sub> = [ W x l<sub>1</sub><sup>2</sup>x l<sub>2</sub> ] / 12 </strong></p>
         <p class="incanvas" id="text6" style="font-size:17px; position: absolute; left: 390px; top: 194px;">M<sup>F</sup><sub>BA</sub> = [ 50 x &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x 3 ] / 5 <sup>2 </sup>=</p>
-        <input type="text" id="L1"style="position: absolute; text-align: center; left: 497px; top: 204px; height: 25px; width: 40px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px; padding-left: 2px;"><br>
+        <input type="text" id="L1"style="position: absolute; text-align: center; left: 500px; top: 204px; height: 25px; width: 40px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px; padding-left: 2px;"><br>
         <button id="button2"style="position: absolute; left: 716px; top: 204px; width: 60px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="FixedmomentBA()">Solve</button>
         <output   class="output-mfba"  style="position: absolute; text-align: center; left: 635px; top: 204px; width: 62px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:2px;  background-color: #ffffff; color: #1000a1; display: none; display: none; "id="mfba"></output> 
         <output  id="wrong1b" class="output-wrong1b" style="position: absolute; left: 460px;  top: 244px;  width: 270px; height: 40px; border-radius: 12px;border: 1px solid #000; padding-top: 8px; padding-bottom: 2px;  padding-right:3px; padding-left:3px;  background-color: #4c4b4b; color: #FFF; display: none; "></output> 
@@ -349,6 +349,8 @@ style="position: absolute;
     
         <body>
             <div id="transwhite1" style="width: 400px; top:30px; height: 490px; margin-top: -20px; position: absolute; left:390px;"></div>
+            <span style="position: absolute; left: 15px; top: 10px; font-size:17px; "><strong>Step-2</strong></span>
+
             <span style="position: absolute; left: 80px; top: 10px; font-size:17px; "><strong><u>Slope Deflection Equation</u></strong></span>
 
             
@@ -429,7 +431,9 @@ style="position: absolute;
     
         <body>
             <div id="transwhite1" style="width: 400px; top:30px; height: 480px; margin-top: -20px; position: absolute; left:390px;"></div>
-            <span style="position: absolute; left: 80px; top: 10px; font-size:17px; "><strong><u>Final Moments</u></strong></span>
+            <span style="position: absolute; left: 15px; top: 10px; font-size:17px; "><strong>Step-3</strong></span>
+
+            <span style="position: absolute; left: 100px; top: 10px; font-size:17px; "><strong><u>Final Moments</u></strong></span>
 
             <p class="incanvas" style="font-size:17px; position: absolute; left: 470px; top: 10px;"><strong><u>Equiliberiom Equation</u> </strong></p>
             <p class="incanvas" style="font-size:17px; position: absolute; left: 395px; top: 30px;"><strong>Note:</strong>In This problem there is only one unknown <br>ie.<u>EI&#920;<sub>B</sub></u> </p>
@@ -455,7 +459,7 @@ style="position: absolute;
 
             <button id= "buttonx"style="position: absolute; left: 715px; top: 245px; width: 60px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="finalmoments()">Solve </button>
 
-            <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133);left: 5px; top: 420px;"><strong><u>CONDITIONS:</u></strong><br><u>R < C + 3</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically Unstable.<br><u>R = C + 3</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically derminate with no <br>geometrical instablity (stable).<br><u>R > C + 3</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statically indeterminate with <br>no geometrical instablity.</p>
+            <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133);left: 5px; top: 420px;"><strong><u>CONDITIONS:</u></strong><br><u></p>
          
           
                 </body>
@@ -504,7 +508,9 @@ style="position: absolute;
     
         <body>
             <div id="transwhite1" style="width: 400px; top:30px; height: 500px; margin-top: -20px; position: absolute; left:390px;"></div>
-            <span style="position: absolute; left: 80px; top: 10px; font-size:17px; "><strong><u>Calculations for Reactions</u></strong></span>
+            <span style="position: absolute; left: 15px; top: 10px; font-size:17px; "><strong>Step-2</strong></span>
+
+            <span style="position: absolute; left: 90px; top: 10px; font-size:17px; "><strong><u>Calculations for Reactions</u></strong></span>
 
             <p class="incanvas" id="text24" style="font-size:17px; position: absolute; left: 470px; top: 10px;"><strong><u>Taking Moments about B</u> </strong></p>
             <p class="incanvas" id="text25" style="font-size:17px; position: absolute; left: 385px; top: 30px;">Note:</strong>Force acts clockwise  is +ve and anticlockwise<br> is -ve </p>
@@ -606,27 +612,29 @@ style="position: absolute;
         <body>
 
             <span style="position: absolute; left: 350px; top: 10px; font-size:17px; "><strong><u>Shear Force Diagram</u></strong></span>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 150px; top: 25px;"><strong><u>Shear Force Values</u> </strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 50px;">Shear Force at A = 28.5KN</p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 75px;">Shear Force at left of W1 = 28.5 5KN</p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 100px;">Shear Force at right of W1 = 28.5 - 50 = -21.5KN</p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 125px;">Shear Force at left of B = -21.5KN</p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 150px;">Shear Force at right of B = -21.5 + 77 = 56.1KN</p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 175px;">Shear Force at left of C = 56.1 - 24 x 5 = -63.9KN</p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 200px;">Shear Force at C = -63.9 + 63.9 = 0 KN</p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 50px;">Shear Force at A = <strong>28.5 KN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 75px;">Shear Force at left of W1 = <strong>28.5 KN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 100px;">Shear Force at right of W1 = 28.5 - 50 = <strong>-21.5 KN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 125px;">Shear Force at left of B = <strong>-21.5 KN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 150px;">Shear Force at right of B = -21.5 + 77 = <strong>56.1 KN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 175px;">Shear Force at left of C = 56.1 - 24 x 5 = <strong>-63.9 KN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 200px;">Shear Force at C = -63.9 + 63.9 = <strong>0 KN</strong></p>
             
 
-            <style>
+            <!DOCTYPE html>
+            <html>
+            <head>
+              <style>
                 canvas {
                   border: 1px solid #000;
                 }
               </style>
             </head>
             <body>
-
-              <canvas id="graph" style="width: 670px; top:265px; border: 3px solid #122cf4; background-color: #ffffff;border-radius: 10px; height: 220px; margin-top: -20px; position: absolute; left:65px; color:white; "></canvas>
+            
+              <canvas id="graph" style="width: 670px; top:265px; border: 3px solid #122cf4; background-color: #f7f3f3;border-radius: 10px; height: 220px; margin-top: -20px; position: absolute; left:65px; color:rgb(230, 224, 224); "></canvas>
               <button id="renderButton" style="position: absolute; left: 380px; top: 470px; width: 80px; padding-top: 5px; padding-bottom: 5px; background-color: #424549; color: #FFF;">Plot SFD  </button>
-
+            
               <script>
                 // Sample data for the shear force line graph
                 const data = [
@@ -669,6 +677,11 @@ style="position: absolute;
             
                 // Function to render the line graph
                 function renderGraph() {
+                  // Set the line color to green
+                  ctx.fillStyle = 'black'; // Set text color to black
+          ctx.font = 'bold 10px Arial'; // Increase font size for visibility
+
+            
                   // Initialize the line index
                   let lineIndex = 0;
             
@@ -702,6 +715,9 @@ style="position: absolute;
                 }
               </script>
             </body>
+            </html>
+            
+            
             <button class="fa fa-hand-o-right" id="nextButton6" style=" color: rgb(119, 119, 121); position:absolute; left:700px; height: 40px; width: 70px; top:515px; font-size: 35px; "onclick="navNext1h()"></button>
 
             
@@ -717,64 +733,28 @@ style="position: absolute;
     
             <body>
     
-                <span style="position: absolute; left: 80px; top: 10px; font-size:17px; "><strong><u>Shear Force Diagram</u></strong></span>
-                <p class="incanvas" style="font-size:17px; position: absolute; left: 150px; top: 25px;"><strong><u>Shear Force Values</u> </strong></p>
-                <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 50px;">Shear Force at A = 28.5KN</p>
-                <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 75px;">Shear Force at left of W1 = 28.5 5KN</p>
-                <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 100px;">Shear Force at right of W1 = 28.5 - 50 = -21.5KN</p>
-                <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 125px;">Shear Force at left of B = -21.5KN</p>
-                <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 150px;">Shear Force at right of B = -21.5 + 77 = 56.1KN</p>
-                <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 175px;">Shear Force at left of C = 56.1 - 24 x 5 = -63.9KN</p>
-                <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 200px;">Shear Force at C = -63.9 + 63.9 = 0 KN</p>
-                
+                <p class="incanvas" style="font-size:17px; position: absolute; left: 150px; top: 25px;"><strong><u>Bending Moment Diagram</u> </strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 50px;">We consider every space as seperate simply supported beam</p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 75px;">Max Bending moment in simply supported beam (AB) = [W x l<sub>1</sub> x l<sub>2</sub>] / L</p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 100px;">Max BM in beam AB = [ 50 x 2 x 3] / 5 = <strong>6 KNm</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 125px;">Also, Max Bending moment in simply supported beam (BC) = [W x L<sup>2</sup>] / 8</p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 150px;">Max BM in beam BC = [ 24 x 5<sup>2</sup>] / 8 = <strong>75 KNm</strong></p>
+            
     
-                
-    
-                <button class="fa fa-hand-o-right" id="nextButton6" style=" color: rgb(119, 119, 121); position:absolute; left:700px; height: 40px; width: 70px; top:515px; font-size: 35px; "onclick="navNext1h()"></button>
     
             
-           
-                    <style>
-                        #imageContainer {
-                            width: 500px;
-                            height: 300px;
-                            overflow: hidden;
-                            border: 1px solid #000;
-                        }
-                
-                        #imageContainer img {
-                            width: 100%;
-                            height: auto;
-                            position: relative;
-                            left: -100%;
-                            transition: left 0.5s ease-in-out;
-                        }
-                    </style>
-                </head>
-                <body>
-                    <button onclick="slowlyRenderImage()">Render Image</button>
-                    <div id="imageContainer">
-                        <img src="images/slopedeflectiongraph.png" alt="Image">
-                    </div>
-                
-                    <script>
-                        function slowlyRenderImage() {
-                            const image = document.querySelector('#imageContainer img');
-                            const containerWidth = document.querySelector('#imageContainer').offsetWidth;
-                            const imageWidth = image.offsetWidth;
-                            const step = (containerWidth / imageWidth) * 100; // Percentage increment per step
-                            let currentStep = 0;
-                
-                            const renderInterval = setInterval(() => {
-                                currentStep += step;
-                                if (currentStep >= 100) {
-                                    clearInterval(renderInterval);
-                                    currentStep = 100;
-                                }
-                                image.style.left = `-${currentStep}%`;
-                            }, 100);
-                        }
-                    </script>
+
+                <img src="images/BMD.png"   id="addspecimen4" 
+                style="position: absolute;
+                    left: 150px;
+                    top: 250px;
+                    height: 220px;
+                    width: 500px;
+                    visibility: hidden;
+                    "draggable="false"/>
+                 
+                </body>
+                </html>
                 </body>
               
                 
