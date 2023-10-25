@@ -193,7 +193,7 @@
 {
 	/**/
 	border: 2px solid #2121f3;
-	background-color: rgb(255, 255, 255, 0.95);
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(214, 232, 245));
 	border-radius: 0px;
 
 }
@@ -254,7 +254,7 @@
 {
 	/**/
 	border: 2px solid #F36F21;
-	background-color: rgb(255, 255, 255, 0.95);
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(205, 230, 248));
 	border-radius: 0px;
 
 }
@@ -263,7 +263,7 @@
 {
 	/**/
 	border: 3px solid #f46512;
-	background-color: #ffffff;
+	background-image: linear-gradient(rgb(214, 232, 245), rgb(249, 213, 213));
 	border-radius: 20px;
 	top:300px;
 }
