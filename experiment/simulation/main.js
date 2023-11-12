@@ -4,10 +4,10 @@
       const w1 = document.getElementById("w1").value;
     
       // Check if input1 is 4 and input2 is 1
-      if (w1 == -50 ) { 
+      if (w1 == 50 ) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("mfab").innerHTML = "-36 KNm";
+          document.getElementById("mfab").innerHTML = "36 KNm";
           document.getElementById("wrong1a").style.visibility="hidden";
         }, 500);
         setTimeout(function() {
@@ -45,7 +45,7 @@
       } else {
         // Display an error message
         setTimeout(function() {
-       document.getElementById("wrong1a").innerHTML = "Wrong Input. The value for Load W = -50";
+       document.getElementById("wrong1a").innerHTML = "Wrong Input. The value for Load W = 50";
       }, 1000);
        document.getElementById("wrong1a").style.display = "block";
       }
@@ -60,8 +60,10 @@ function FixedmomentBA() {
   if (L1 == 4) { 
     // Slowly display the text after 2 seconds
     setTimeout(function() {
-      document.getElementById("mfba").textContent = " -36 KNm" ;
       document.getElementById("wrong1b").style.visibility="hidden";
+    }, 1);
+    setTimeout(function() {
+      document.getElementById("mfba").textContent = " -24 KNm" ;
     }, 500);
 
     setTimeout(function() {
@@ -112,7 +114,7 @@ function FixedmomentBA() {
       if (L2a == 25 ) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("mfbc").textContent = "-50 KNm" ;
+          document.getElementById("mfbc").textContent = "50 KNm" ;
 
           document.getElementById("wrong1c").style.visibility="hidden";
         }, 1000);
@@ -161,10 +163,10 @@ function FixedmomentBA() {
       const w2 = document.getElementById("w2").value;
       
       // Check if input1 is 4 and input2 is 1
-      if (w2 == 24 ) { 
+      if (w2 == -24 ) { 
         // Slowly display the text after 2 seconds
         setTimeout(function() {
-          document.getElementById("mfcb").textContent = "50 KNm" ;
+          document.getElementById("mfcb").textContent = "-50 KNm" ;
           document.getElementById("wrong1d").style.visibility="hidden";
           document.getElementById("nextButton1").style.visibility="visible";
           
@@ -188,7 +190,7 @@ function FixedmomentBA() {
       } else {
         // Display an error message
       setTimeout(function() {
-       document.getElementById("wrong1d").innerHTML = "Wrong Input. The value of W = 24";
+       document.getElementById("wrong1d").innerHTML = "Wrong Input. The value of W = -24";
       }, 1000);
        document.getElementById("wrong1d").style.display = "block";
       }
@@ -204,28 +206,30 @@ function displayText2a() {
   const input3a2 = document.getElementById("input3a2").value;
 
   // Check if input1 is 4 and input2 is 1
-  if (input1a2 == -36 && input2a2 == 5 && input3a2 == 0 ) { 
+  if (input1a2 == 36 && input2a2 == 5 && input3a2 == 0 ) { 
     // Slowly display the text after 2 seconds
     setTimeout(function() {
-      document.getElementById("output1a2").innerHTML = "M<sub>AB</sub> = -36 + 0.4 EIΘ<sub>B</sub>";
       document.getElementById("wrong2a").style.visibility="hidden";
+    }, 1);
+    setTimeout(function() {
+      document.getElementById("output1a2").innerHTML = "M<sub>AB</sub> = 36 + 0.4 EIΘ<sub>B</sub>";
     }, 500);
     setTimeout(function() {
       document.getElementById("text16").style.visibility="visible";
       document.getElementById("text17").style.visibility="visible";
       document.getElementById("text17b").style.visibility="visible";
       document.getElementById("box6").style.visibility="visible";
-      document.getElementById("output1b2").innerHTML = "M<sub>BA</sub> = 24 + 0.8 EIΘ<sub>B</sub>" ;
+      document.getElementById("output1b2").innerHTML = "M<sub>BA</sub> = -24 + 0.8 EIΘ<sub>B</sub>" ;
     }, 800);
     setTimeout(function() {
-      document.getElementById("output1c2").innerHTML = "M<sub>AB</sub> = -50 + 0.8 EIΘ<sub>B</sub>";
+      document.getElementById("output1c2").innerHTML = "M<sub>AB</sub> = 50 + 0.8 EIΘ<sub>B</sub>";
       document.getElementById("box7").style.visibility="visible";
       document.getElementById("text18").style.visibility="visible";
       document.getElementById("text18b").style.visibility="visible";
 
     }, 1100);
     setTimeout(function() {
-      document.getElementById("output1d2").innerHTML = "M<sub>AB</sub> = 50 + 0.4 EIΘ<sub>B</sub>" ;
+      document.getElementById("output1d2").innerHTML = "M<sub>AB</sub> = -50 + 0.4 EIΘ<sub>B</sub>" ;
       document.getElementById("text19").style.visibility="visible";
       document.getElementById("box8").style.visibility="visible";
       document.getElementById("text19b").style.visibility="visible";
@@ -268,7 +272,7 @@ function displayText2a() {
 
   } else {
     // Display an error message
-   document.getElementById("wrong2a").innerHTML = "Wrong Input. The value of M<sup>F</sup><sub>AB</sub> = -36 , L = 5, 2&#920;<sub>B</sub> = 0 ";
+   document.getElementById("wrong2a").innerHTML = "Wrong Input. The value of M<sup>F</sup><sub>AB</sub> = 36 , L = 5, Θ<sub>A</sub> = 0 ";
   
    document.getElementById("wrong2a").style.display = "block";
   }
@@ -284,13 +288,20 @@ function finalmoments() {
 
 
   // Check if input1 is 3 and input2 is 2
-  if (EIQb1 == 16.24 ) { 
+  if (EIQb1 == -16.24 ) { 
     // Slowly display the text after 2 seconds
+
+    
     setTimeout(function() {
-      document.getElementById("Mab").textContent = "-29.5 KNm " ;
+      document.getElementById("wrong3a").style.visibility="hidden";
+    }, 1);
+    setTimeout(function() {
+      document.getElementById("Mab").textContent = "29.5 KNm " ;
+    }, 800);
+    setTimeout(function() {
             document.getElementById("buttonx").style.visibility="hidden";
-            document.getElementById("wrong3a").style.visibility="hidden";
-          }, 100);
+          }, 500);
+
           setTimeout(function() {
       document.getElementById("text20").style.visibility="visible";
     }, 1000);
@@ -309,7 +320,6 @@ function finalmoments() {
     }, 1600);
     document.getElementById("Mab").style.display = "block";
     document.getElementById("buttonx").style.display = "block";
-    document.getElementById("wrong3a").style.display = "block";
     document.getElementById("text20").style.display = "block";
     document.getElementById("text21").style.display = "block";
     document.getElementById("text22").style.display = "block";
@@ -331,8 +341,9 @@ function finalmoments() {
   else        {
     
     // Display an error message
-    document.getElementById("wrong3a").innerHTML = "Wrong Input. The Value of EI&#920;<sub>B</sub> = 16.24";
-  
+    setTimeout(function() {
+    document.getElementById("wrong3a").innerHTML = "Wrong Input. The Value of EI&#920;<sub>B</sub> = -16.24";
+  }, 1000);
    document.getElementById("wrong3a").style.display = "block";
   }
 }
@@ -347,10 +358,10 @@ function reaction1() {
 
 
   // Check if input1 is 3 and input2 is 2
-  if (momentatA == -29.5 && momentatB == 37 ) { 
+  if (momentatA == 29.5 && momentatB == -37 ) { 
     // Slowly display the text after 2 seconds
     setTimeout(function() {
-      document.getElementById("reactionRA").textContent = "28.5 KN " ;
+      document.getElementById("reactionRA").textContent = "-28.5 KN " ;
       document.getElementById("wrong4a").style.visibility="hidden";
     }, 100);
     setTimeout(function() {
@@ -389,7 +400,7 @@ function reaction1() {
   else        {
     
     // Display an error message
-   document.getElementById("wrong4a").innerHTML = "Wrong Input, M<sub>A</sub> = -29.5 & M<sub>B</sub> = 37"  ;
+   document.getElementById("wrong4a").innerHTML = "Wrong Input, M<sub>A</sub> = 29.5 & M<sub>B</sub> = -37"  ;
 
   document.getElementById("wrong4a").style.display = "block";
   }
@@ -402,10 +413,10 @@ function reaction2() {
 
 
   // Check if input1 is 3 and input2 is 2
-  if (reactionA == 28.5 ) { 
+  if (reactionA == -28.5 ) { 
     // Slowly display the text after 2 seconds
     setTimeout(function() {
-      document.getElementById("reactionRB1").textContent = "21.5 KN " ;
+      document.getElementById("reactionRB1").textContent = "-21.5 KN " ;
       document.getElementById("wrong4b").style.visibility="hidden";
     }, 100);
     setTimeout(function() {
@@ -442,7 +453,7 @@ function reaction2() {
   else        {
     
     // Display an error message
-   document.getElementById("wrong4b").innerHTML = "Wrong Input. Value of Reaction at pt. A i.e R<sub>A</sub> = 28.5";
+   document.getElementById("wrong4b").innerHTML = "Wrong Input. Value of Reaction at pt. A i.e R<sub>A</sub> = -28.5";
 
   document.getElementById("wrong4b").style.display = "block";
   }
@@ -453,10 +464,10 @@ function reaction3() {
   const UDL = document.getElementById("UDL").value;
 
   // Check if input1 is 3 and input2 is 2
-  if (UDL == -24 ) { 
+  if (UDL == 24 ) { 
     // Slowly display the text after 2 seconds
     setTimeout(function() {
-      document.getElementById("reactionRB2").textContent = "56.1 KN " ;
+      document.getElementById("reactionRB2").textContent = "-56.1 KN " ;
       document.getElementById("wrong4c").style.visibility="hidden";
       
     }, 100);
@@ -490,7 +501,7 @@ function reaction3() {
   else        {
     
     // Display an error message
-   document.getElementById("wrong4c").innerHTML = "Wrong Input. Value of UDL = -24 KN/m (anti clockwise)";
+   document.getElementById("wrong4c").innerHTML = "Wrong Input. Value of UDL = 24 KN/m (anti clockwise)";
 
   document.getElementById("wrong4c").style.display = "block";
   }
@@ -502,10 +513,10 @@ function reaction4() {
   const reactionB2 = document.getElementById("reactionB2").value;
 
   // Check if input1 is 3 and input2 is 2
-  if (reactionB2 == 56.1 ) { 
+  if (reactionB2 == -56.1 ) { 
     // Slowly display the text after 2 seconds
     setTimeout(function() {
-      document.getElementById("reactionRC").textContent = "36.9 KN " ;
+      document.getElementById("reactionRC").textContent = "-63.1 KN " ;
       document.getElementById("wrong4d").style.visibility="hidden";
 
     }, 400);
@@ -532,7 +543,7 @@ function reaction4() {
   else        {
     
     // Display an error message
-   document.getElementById("wrong4d").innerHTML = "Wrong Input. Value of Reaction at pt. C i.e R<sub>C</sub> = 56.1 ";
+   document.getElementById("wrong4d").innerHTML = "Wrong Input. Value of Reaction at pt. C i.e R<sub>C</sub> = -56.1 ";
 
   document.getElementById("wrong4d").style.display = "block";
   }
@@ -686,6 +697,7 @@ document.getElementById("wrong1d").style.visibility="visible";
 
 function navNext1c()
 {
+
 document.getElementById("canvas1b").style.visibility="hidden";
 document.getElementById("canvas1c").style.visibility="visible";
 document.getElementById('addspecimen1ba').style.visibility="visible";

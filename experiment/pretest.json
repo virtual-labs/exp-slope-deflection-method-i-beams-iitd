@@ -21,7 +21,7 @@
       "question": "2. Which of the following is not an assumption of the slope deflection method?",
       "answers": {
         "a": " Elastic behavior of materials",
-        "b": "Rigid joints with no relative rotation",
+        "b": "Plain section section remains plain",
         "c": "Large deformations",
         "d": "Small deformations"
       },
@@ -35,12 +35,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "3.In the slope deflection equations, the deformations are considered to be caused by_______",
+      "question": "3. Slope deflection method is _________",
       "answers": {
-        "a": "Bending moment",
-        "b": "Shear force",
-        "c": "Axial force",
-        "d": "Moments"
+        "a": "Force method",
+        "b": "Displacement method ",
+        "c": "Both a & b",
+        "d": "Neither a & b "
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -48,11 +48,11 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "4. What is the primary objective of using the slope deflection method?",
+      "question": "4. What is the overall objective of using the slope deflection method?",
       "answers": {
         "a": "Calculate deflections in a structure.",
         "b": "Determine support reactions",
