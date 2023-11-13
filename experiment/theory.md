@@ -14,7 +14,7 @@ The slope deflection method is a classical displacement-based structural analysi
 •	For each member, the fixed end moments are computed using the known loads and the geometry of the beam, taking into account the support conditions at the ends, using well-known standard formulas. 
 <br>
 <br>
-<div align="center"><img src="images/f1.png"></div>
+<div align="center"><img src="images/F1.png"></div>
 <br>
 <br>
 Formation of Slope-Deflection Equations: 
