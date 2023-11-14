@@ -239,8 +239,8 @@ style="position: absolute;
             width: 600px;
             visibility: hidden;
             "draggable="false"/>
-        <span style="position: absolute; left: 40px; top: 10px; font-size:17px; "><strong><u>Beam having point load of 50KN at distance of 2m from point A and a UDL over the span of 5m </u></strong></span>
-        <button id="button50" style="position: absolute; left: 360px; top: 340px; width: 80px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="navNext1b()">Split</button>
+        <span style="position: absolute; left: 40px; top: 10px; font-size:17px; "><strong><u>Beam having point load of 50kN at distance of 2m from point A and a UDL over the span of 5m </u></strong></span>
+        <button id="button50" style="position: absolute; left: 360px; top: 340px; width: 80px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="navNext1b()">Start</button>
         <span class="blink_me" id="arw1" style="position: absolute;font-size: 30px;left: 325px; top: 332px;"><strong><i class="fa fa-arrow-right"></i></strong></span>
         
 
@@ -275,8 +275,8 @@ style="position: absolute;
         <p class="incanvas" id="text4" style="font-size:17px; position: absolute; left: 400px; top: 120px;"><u>For Span BA  </u></p>
         <div id="box2"  style="width: 250px; top:180px; height: 30px; margin-top: -20px; position: absolute; left:470px;"></div>
         <p class="incanvas" id="text5" style="font-size:17px; position: absolute; left: 480px; top: 154px;"><strong>M<sup>F</sup><sub>BA</sub> = [ -W x l<sub>1</sub><sup>2</sup>x l<sub>2</sub> ] / 12 </strong></p>
-        <p class="incanvas" id="text6" style="font-size:17px; position: absolute; left: 390px; top: 194px;">M<sup>F</sup><sub>BA</sub> = [ -50 x &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x 3 ] / 5 <sup>2 </sup>=</p>
-        <input type="text" id="L1"style="position: absolute; text-align: center; left: 500px; top: 204px; height: 25px; width: 40px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px; padding-left: 2px;"><br>
+        <p class="incanvas" id="text6" style="font-size:17px; position: absolute; left: 395px; top: 194px;">M<sup>F</sup><sub>BA</sub> = [ -50 x &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x 3 ] / 5 <sup>2 </sup>=</p>
+        <input type="text" id="L1"style="position: absolute; text-align: center; left: 510px; top: 204px; height: 25px; width: 40px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px; padding-left: 2px;"><br>
         <button id="button2"style="position: absolute; left: 716px; top: 204px; width: 60px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="FixedmomentBA()">Solve</button>
         <output   class="output-mfba"  style="position: absolute; text-align: center; left: 635px; top: 204px; width: 62px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:2px;  background-color: #ffffff; color: #1000a1; display: none; display: none; "id="mfba"></output> 
         <output  id="wrong1b" class="output-wrong1b" style="position: absolute; left: 460px;  top: 244px;  width: 270px; height: 40px; border-radius: 12px;border: 1px solid #000; padding-top: 8px; padding-bottom: 2px;  padding-right:3px; padding-left:3px;  background-color: #4c4b4b; color: #FFF; display: none; "></output> 
@@ -287,7 +287,7 @@ style="position: absolute;
         <div id="box3"  style="width: 250px; top:294px; height: 30px; margin-top: -20px; position: absolute; left:470px;"></div>
         <p class="incanvas" id="text8" style="font-size:17px; position: absolute; left: 480px; top: 268px;"><strong>M<sup>F</sup><sub>BC</sub> = [ W x L<sup>2</sup> / 12 ] </strong></p>
         <p class="incanvas" id="text9" style="font-size:17px; position: absolute; left: 390px; top: 308px;">M<sup>F</sup><sub>BC</sub> = [ 24 x &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ]  / 12 =</p>
-        <input type="text" id="L2a"style="position: absolute; text-align: center; left: 504px; top: 318px; height: 25px; width: 40px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px; padding-left: 2px;"><br>
+        <input type="text" id="L2a"style="position: absolute; text-align: center; left: 499px; top: 318px; height: 25px; width: 40px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px; padding-left: 2px;"><br>
         <button id="button3"style="position: absolute; left: 716px; top: 318px; width: 60px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="FixedmomentBC()">Solve</button>
         <output id="mfbc" class="output-mfbc"  style="position: absolute; text-align: center; left: 635px; top: 318px; width: 62px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:2px;  background-color: #ffffff; color: #1000a1; display: none; display: none; "></output> 
         <output id="wrong1c" class="output-wrong1c" style="position: absolute; left: 460px;  top: 358px;  width: 270px; height: 40px; border-radius: 12px;border: 1px solid #000; padding-top: 8px; padding-bottom: 2px;  padding-right:3px; padding-left:3px;  background-color: #4c4b4b; color: #FFF; display: none; "></output> 
@@ -295,9 +295,9 @@ style="position: absolute;
     
         <p class="incanvas" id="text10" style="font-size:17px; position: absolute; left: 400px; top: 344px;"><u>For Span CB  </u></p>
         <div id="box4"  style="width: 250px; top:408px; height: 30px; margin-top: -20px; position: absolute; left:470px;"></div>
-        <p class="incanvas" id="text11" style="font-size:17px; position: absolute; left: 480px; top: 382px;"><strong>M<sup>F</sup><sub>BC</sub> = [ -W x L<sup>2</sup> / 12 ]</strong></p>
-        <p class="incanvas" id="text12" style="font-size:17px; position: absolute; left: 390px; top: 422px;">M<sup>F</sup><sub>BC</sub> = [ &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x  5<sup>2</sup> ] / 12 =</p>
-        <input type="text" id="w2"style="position: absolute; text-align: center; left: 463px; top: 432px; height: 25px; width: 40px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px; padding-left: 2px;" id="w2"><br>
+        <p class="incanvas" id="text11" style="font-size:17px; position: absolute; left: 480px; top: 382px;"><strong>M<sup>F</sup><sub>BC</sub> = -[ W x L<sup>2</sup> / 12 ]</strong></p>
+        <p class="incanvas" id="text12" style="font-size:17px; position: absolute; left: 390px; top: 422px;">M<sup>F</sup><sub>BC</sub> = -[ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x  5<sup>2</sup> ] / 12 =</p>
+        <input type="text" id="w2"style="position: absolute; text-align: center; left: 465px; top: 432px; height: 25px; width: 40px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px; padding-left: 2px;" id="w2"><br>
         <button id="button4"style="position: absolute; left: 716px; top: 432px; width: 60px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="FixedmomentCB()">Solve</button>
         <output id="mfcb" class="output-mfbc"  style="position: absolute; text-align: center; left: 635px; top: 432px; width: 62px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:2px;  background-color: #ffffff; color: #1000a1; display: none; display: none; "></output> 
         <output id="wrong1d" class="output-wrong1c" style="position: absolute; left: 472px; right:25px; top: 472px;  width: 270px; height: 40px; border-radius: 12px;border: 1px solid #000; padding-top: 8px; padding-bottom: 2px;  padding-right:3px; padding-left:3px;  background-color: #4c4b4b; color: #FFF; display: none; "></output> 
@@ -447,13 +447,13 @@ style="position: absolute;
             
             <p class="incanvas" style="font-size:17px; position: absolute; left: 392px; top: 200px;">Applying value of <strong>EI&#920;<sub>B</sub></strong> in Equation 1, 2, 3 and 4 </p>
             <p class="incanvas" style="font-size:17px; position: absolute; left: 390px; top: 235px;"><strong>M<sub>AB</sub></strong>= 36 + 0.4EI&#920;<sub>B</sub> = 36 + 0.4 x &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =</p>
-            <input type="text" style="position: absolute; text-align: center; left: 643px; top: 245px; width: 40px; height: 25px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" id="EIQb1"><br>
+            <input type="text" style="position: absolute; text-align: center; left: 641px; top: 245px; width: 40px; height: 25px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" id="EIQb1"><br>
             <output  class="output-Mab" style="position: absolute; left: 712px; right:45px; top: 245px; width: 73px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:2px;  background-color: #ffffff; color: #1000a1; display: none; display: none; "id="Mab"></output> 
 
             <p class="incanvas" id="text20" style="font-size:17px; position: absolute; left: 400px; top: 270px;"><strong><u>Similarly</u> </strong></p>
-            <p class="incanvas" id="text21" style="font-size:17px; position: absolute; left: 390px; top: 300px;"><strong>M<sub>BA</sub></strong>= -24 + 0.8EI&#920;<sub>B</sub> = &nbsp;&nbsp;-24 + 0.8 x 16.24 = -11 KNm</p>
-            <p class="incanvas" id="text22"style="font-size:17px; position: absolute; left: 390px; top: 330px;"><strong>M<sub>BC</sub></strong>= 50 + 0.8EI&#920;<sub>B</sub> = 50 + 0.8 x 16.24 = 62.99 KNm</p>
-            <p class="incanvas" id="text23"style="font-size:17px; position: absolute; left: 390px; top: 360px;"><strong>M<sub>CB</sub></strong>= -50 + 0.4EI&#920;<sub>B</sub> = &nbsp;&nbsp;-50 + 0.4 x 16.24 = -37 KNm</p>
+            <p class="incanvas" id="text21" style="font-size:17px; position: absolute; left: 390px; top: 300px;"><strong>M<sub>BA</sub></strong>= -24 + 0.8EI&#920;<sub>B</sub> = &nbsp;&nbsp;-24 + 0.8 x 16.24 = -11 kNm</p>
+            <p class="incanvas" id="text22"style="font-size:17px; position: absolute; left: 390px; top: 330px;"><strong>M<sub>BC</sub></strong>= 50 + 0.8EI&#920;<sub>B</sub> = 50 + 0.8 x 16.24 = 62.99 kNm</p>
+            <p class="incanvas" id="text23"style="font-size:17px; position: absolute; left: 390px; top: 360px;"><strong>M<sub>CB</sub></strong>= -50 + 0.4EI&#920;<sub>B</sub> = &nbsp;&nbsp;-50 + 0.4 x 16.24 = -37 kNm</p>
 
             <output  class="wrong3a" id="wrong3a" style="position: absolute; left: 470px; right:45px; top: 280px;  width: 270px; height: 40px; border-radius: 12px;border: 1px solid #000; padding-top: 8px; padding-bottom: 2px;  padding-right:3px; padding-left:3px;  background-color: #4c4b4b; color: #FFF; display: none;"></output> 
 
@@ -515,28 +515,28 @@ style="position: absolute;
             <p class="incanvas" id="text24" style="font-size:17px; position: absolute; left: 470px; top: 10px;"><strong><u>Taking Moments about B</u> </strong></p>
             <p class="incanvas" id="text25" style="font-size:17px; position: absolute; left: 385px; top: 30px;">Note:</strong>Force acts clockwise  is +ve and anticlockwise<br> is -ve </p>
             <p class="incanvas" id="text26" style="font-size:17px; position: absolute; left: 460px; top: 80px;"><strong> -5R<sub>A</sub> + (50 x 3) + M<sub>A</sub> - M<sub>B</sub> = 0</strong></p>
-            <p class="incanvas" id="text27" style="font-size:17px; position: absolute; left: 410px; top: 120px;"> -5R<sub>A</sub> + 150 + &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;= 0</p>
+            <p class="incanvas" id="text27" style="font-size:17px; position: absolute; left: 400px; top: 120px;"> -5R<sub>A</sub> + 150 + &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;= 0</p>
             <p class="incanvas" id="text28" style="font-size:17px; position: absolute; left: 685px; top: 120px;"><strong> R<sub>A</sub>= </strong></p>
 
             
             <p class="incanvas" id="text29"  style="font-size:17px; position: absolute; left: 460px; top: 155px;"><strong><u>Reaction at left part of B</u> </strong></p>
             <p class="incanvas" id="text30"  style="font-size:17px; position: absolute; left: 460px; top: 185px;"> <strong>ΣV = 0 then, R<sub>B1</sub> - R<sub>A</sub> + 50 = 0</strong></p>
-            <p class="incanvas" id="text31"  style="font-size:17px; position: absolute; left: 450px; top: 218px;">R<sub>B1</sub> - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + 50  = 0</p>
-            <p class="incanvas" id="text32" style="font-size:17px; position: absolute; left: 680px; top: 218px;"><strong>R<sub>B1</sub>=</strong></p>
+            <p class="incanvas" id="text31"  style="font-size:17px; position: absolute; left: 450px; top: 218px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + R<sub>B1</sub> + 50  = 0</p>
+            <p class="incanvas" id="text32" style="font-size:17px; position: absolute; left: 673px; top: 218px;"><strong>R<sub>B1</sub>=</strong></p>
            
 
             <p class="incanvas" id="text33" style="font-size:17px; position: absolute; left: 460px; top: 250px;"><strong><u>Taking Moments about C</u> </strong></p>
             <p class="incanvas" id="text34" style="font-size:17px; position: absolute; left: 420px; top: 280px;"><strong>-5R<sub>B2</sub> + UDL (5 x 5/2) + M<sub>BC</sub> - M<sub>CB</sub> = 0</strong></p>
-            <p class="incanvas" id="text35" style="font-size:17px; position: absolute; left: 390px; top: 310px;">-5R<sub>B2</sub>+ (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; x 12.5) - 19.5 = 0</p>
-            <p class="incanvas" id="text36" style="font-size:17px; position: absolute; left: 690px; top: 310px;"><strong>R<sub>B2</sub>=</strong></p>
+            <p class="incanvas" id="text35" style="font-size:17px; position: absolute; left: 385px; top: 310px;">-5R<sub>B2</sub>+ (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; x 12.5) - 19.5 = 0</p>
+            <p class="incanvas" id="text36" style="font-size:17px; position: absolute; left: 686px; top: 310px;"><strong>R<sub>B2</sub>=</strong></p>
 
 
 
             <p class="incanvas" id="text37" style="font-size:17px; position: absolute; left: 460px; top: 340px;"><strong><u>Reaction at right part of B</u> </strong></p>
             <p class="incanvas" id="text38" style="font-size:17px; position: absolute; left: 460px; top: 370px;"><strong>ΣV = 0 then, R<sub>C</sub> - R<sub>B2</sub> + 24 X 5 = 0</strong></p>
-            <p class="incanvas" id="text39" style="font-size:17px; position: absolute; left: 450px; top: 400px;">R<sub>C</sub> - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + 24 X 5  = 0</p>
+            <p class="incanvas" id="text39" style="font-size:17px; position: absolute; left: 445px; top: 400px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + R<sub>C</sub> + 24 X 5  = 0</p>
             <p class="incanvas" id="text40" style="font-size:17px; position: absolute; left: 690px; top: 400px;"><strong>R<sub>C</sub>=</strong></p>
-            <p class="incanvas" id="text41" style="font-size:17px; position: absolute; left: 390px; top: 440px;"> Reaction at Pt. B (R<sub>B</sub>) = R<sub>B1</sub> + R<sub>B2</sub> <strong>&#8594</strong> -21.5 - 56.1 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = -77.6 KN</p>
+            <p class="incanvas" id="text41" style="font-size:17px; position: absolute; left: 390px; top: 440px;"> Reaction at Pt. B (R<sub>B</sub>) = R<sub>B1</sub> + R<sub>B2</sub> <strong>&#8594</strong> -21.5 - 56.1 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = -77.6 kN</p>
 
 
             <p class="incanvas" style="font-size:15px; position: absolute; color: rgb(10, 10, 133);left: 5px; top: 420px;"><strong><u>CONDITIONS:</u><br>1-</strong> Moments in <strong>clockwise</strong> direction ↻ is <strong>+ve  <br>2-</strong> Moments in <strong>anti-clockwise</strong> direction ↺ is <strong>-ve<br>3- Rule:</strong> &Sigma; of all vertical forces = 0 (&Sigma;V = 0) </sub></p>
@@ -544,23 +544,23 @@ style="position: absolute;
         <body>
            
             <input type="text" style="position: absolute; text-align: center; left: 506px; top: 130px; width: 40px; height: 25px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" id="momentatA"><br>
-            <input type="text" style="position: absolute; text-align: center; left: 562px; top: 130px; width: 40px; height: 25px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" id="momentatB"><br>
+            <input type="text" style="position: absolute; text-align: center; left: 559px; top: 130px; width: 40px; height: 25px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" id="momentatB"><br>
            
-            <input type="text" style="position: absolute; text-align: center; height: 25px; width: 40px;  left: 503px; top: 228px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" id="reactionA" ><br>
+            <input type="text" style="position: absolute; text-align: center; height: 25px; width: 40px;  left: 455px; top: 228px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" id="reactionA" ><br>
             
             <input type="text" style="position: absolute; text-align: center; height: 25px; left: 457px; top: 320px; width: 40px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" id="UDL" ><br>
            
-            <input type="text" style="position: absolute; text-align: center; height: 25px; left: 500px; top: 410px; width: 40px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" id="reactionB2" ><br>
+            <input type="text" style="position: absolute; text-align: center; height: 25px; left: 455px; top: 410px; width: 40px; border: 1px solid #000; padding-top: 2px; padding-bottom: 2px;" id="reactionB2" ><br>
 
             <button id="button5" style="position: absolute; left: 632px; top: 128px; width: 60px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="reaction1()">Solve </button>
-            <button id="button6" style="position: absolute; left: 626px; top: 226px; width: 60px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="reaction2()">Solve </button>
-            <button id="button7" style="position: absolute; left: 636px; top: 320px; width: 60px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="reaction3()">Solve </button>
+            <button id="button6" style="position: absolute; left: 616px; top: 226px; width: 60px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="reaction2()">Solve </button>
+            <button id="button7" style="position: absolute; left: 632px; top: 320px; width: 60px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="reaction3()">Solve </button>
             <button id="button8" style="position: absolute; left: 636px; top: 410px; width: 60px; padding-top: 2px; padding-bottom: 2px; background-color: #2150a0; color: #FFF;"onclick="reaction4()">Solve </button>
 
-            <output  class="output-reactionRA" style="position: absolute; left: 730px;  top: 130px; width: 55px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:1px;  background-color: #ffffff; color: #1000a1; display: none; "id="reactionRA"></output> 
-            <output  class="output-reactionRB1" style="position: absolute; left: 730px;  top: 228px; width: 55px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:1px;  background-color: #ffffff; color: #1000a1; display: none; "id="reactionRB1"></output>
-            <output  class="output-reactionRB2" style="position: absolute; left: 730px;  top: 320px; width: 55px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:1px;  background-color: #ffffff; color: #1000a1; display: none; "id="reactionRB2"></output> 
-            <output  class="output-reactionRC" style="position: absolute; left: 730px;  top: 410px;width: 55px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:1px;  background-color: #ffffff; color: #1000a1; display: none; "id="reactionRC"></output> 
+            <output  class="output-reactionRA" style="position: absolute; left: 726px;  top: 130px; width: 59px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:1px;  background-color: #ffffff; color: #1000a1; display: none; "id="reactionRA"></output> 
+            <output  class="output-reactionRB1" style="position: absolute; left: 720px;  top: 228px; width: 60px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:1px;  background-color: #ffffff; color: #1000a1; display: none; "id="reactionRB1"></output>
+            <output  class="output-reactionRB2" style="position: absolute; left: 730px;  top: 320px; width: 59px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:1px;  background-color: #ffffff; color: #1000a1; display: none; "id="reactionRB2"></output> 
+            <output  class="output-reactionRC" style="position: absolute; left: 730px;  top: 410px;width: 60px; height: 25px; border: 1px solid #000; padding-top: 1px; padding-bottom: 1px; padding-right:1px; padding-left:1px;  background-color: #ffffff; color: #1000a1; display: none; "id="reactionRC"></output> 
             <output  class="output-wronganswer4a" style="position: absolute; left: 460px;  top: 165px; width: 270px; height: 45px; border-radius: 12px;border: 1px solid #000; padding-top: 8px; padding-bottom: 2px;  padding-right:3px; padding-left:3px;  background-color: #4c4b4b; color: #FFF; display: none; "id="wrong4a"></output> 
             <output  class="output-wronganswer4b" style="position: absolute; left: 460px;  top: 263px; width: 270px; height: 45px; border-radius: 12px;border: 1px solid #000; padding-top: 8px; padding-bottom: 2px;  padding-right:3px; padding-left:3px;  background-color: #4c4b4b; color: #FFF; display: none; "id="wrong4b"></output> 
             <output  class="output-wronganswer4c" style="position: absolute; left: 460px;  top: 365px; width: 270px; height: 45px; border-radius: 12px;border: 1px solid #000; padding-top: 8px; padding-bottom: 2px;  padding-right:3px; padding-left:3px;  background-color: #4c4b4b; color: #FFF; display: none; "id="wrong4c"></output> 
@@ -612,13 +612,13 @@ style="position: absolute;
         <body>
 
             <span style="position: absolute; left: 350px; top: 10px; font-size:17px; "><strong><u>Shear Force Diagram</u></strong></span>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 50px;">Shear Force at A = <strong>-28.5 KN</strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 75px;">Shear Force at left of W1 = <strong>-28.5 KN</strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 100px;">Shear Force at right of W1 = -28.5 + 50 = <strong>21.5 KN</strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 125px;">Shear Force at left of B = <strong>+21.5 KN</strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 150px;">Shear Force at right of B = +21.5 - 77 = <strong>-56.1 KN</strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 175px;">Shear Force at left of C = -56.1 + 24 x 5 = <strong>63.9 KN</strong></p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 200px;">Shear Force at C = 63.9 - 63.9 = <strong>0 KN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 50px;">Shear Force at A = <strong>-28.5 kN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 75px;">Shear Force at left of W1 = <strong>-28.5 kN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 100px;">Shear Force at right of W1 = -28.5 + 50 = <strong>21.5 kN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 125px;">Shear Force at left of B = <strong>+21.5 kN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 150px;">Shear Force at right of B = +21.5 - 77 = <strong>-56.1 kN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 175px;">Shear Force at left of C = -56.1 + 24 x 5 = <strong>63.9 kN</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 200px;">Shear Force at C = 63.9 - 63.9 = <strong>0 kN</strong></p>
             
 
             <!DOCTYPE html>
@@ -697,7 +697,7 @@ style="position: absolute;
                       ctx.stroke();
             
                       // Display values at each data point
-                      ctx.fillText(`( ${start.y} KN)`, (start.x - minX) * scaleX, canvas.height - (start.y - minY) * scaleY - 5);
+                      ctx.fillText(`( ${start.y} kN)`, (start.x - minX) * scaleX, canvas.height - (start.y - minY) * scaleY - 5);
             
                       lineIndex++;
             
@@ -706,7 +706,7 @@ style="position: absolute;
                     } else {
                       // Display value at the last data point
                       const lastPoint = data[data.length - 1];
-                      ctx.fillText(`(${lastPoint.x}, ${lastPoint.y} KN)`, (lastPoint.x - minX) * scaleX, canvas.height - (lastPoint.y - minY) * scaleY - 5);
+                      ctx.fillText(`(${lastPoint.x}, ${lastPoint.y} kN)`, (lastPoint.x - minX) * scaleX, canvas.height - (lastPoint.y - minY) * scaleY - 5);
                     }
                   }
             
@@ -736,9 +736,9 @@ style="position: absolute;
                 <p class="incanvas" style="font-size:17px; position: absolute; left: 150px; top: 25px;"><strong><u>Bending Moment Diagram</u> </strong></p>
             <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 50px;">We consider every space as seperate simply supported beam</p>
             <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 75px;">Max Bending moment in simply supported beam (AB) = -[W x l<sub>1</sub> x l<sub>2</sub>] / L</p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 100px;">Max BM in beam AB = -[50 x 2 x 3] / 5 = <strong>-60 KNm</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 100px;">Max BM in beam AB = -[50 x 2 x 3] / 5 = <strong>-60 kNm</strong></p>
             <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 125px;">Also, Max Bending moment in simply supported beam (BC) = -[W x L<sup>2</sup>] / 8</p>
-            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 150px;">Max BM in beam BC = -[24 x 5<sup>2</sup>] / 8 = <strong>-75 KNm</strong></p>
+            <p class="incanvas" style="font-size:17px; position: absolute; left: 80px; top: 150px;">Max BM in beam BC = -[24 x 5<sup>2</sup>] / 8 = <strong>-75 kNm</strong></p>
             
     
     
