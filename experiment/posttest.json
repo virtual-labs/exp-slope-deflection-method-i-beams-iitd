@@ -4,17 +4,16 @@
       "question": "1. In cantilever beam, slope and deflection at free end is _____",
       "answers": {
         "a": "zero",
-        "b": "maximum",
-        "c": "minimum",
+        "b": "minimum ",
+        "c": "maximum",
         "d": "none of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+        "c": "In cantilever beam, the slope and deflection at free end is maximum."
+
       },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
@@ -26,10 +25,9 @@
         "d": "All of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+        "b": "In simply supported beam the deflection is maximum at a point where slope is zero."
+
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -39,51 +37,33 @@
       "answers": {
         "a": "Rotations and axial loads",
         "b": "Moments and shears",
-        "c": "Forces and deformations",
+        "c": "Forces, moments and deformations",
         "d": "Displacements and support reactions"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "4. The three moments equation is applicable only when _______.",
-      "answers": {
-        "a": "The beam is prismatic",
-        "b": "There is no settlement of supports",
-        "c": "There is no discontinuity such as hinges within the span",
-        "d": "The spans are equal"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+        "c": "The slope-deflection equations relates Forces, moments and deformations"
+
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "5. The fixed support in a real beam becomes in the conjugate beam a_______ .",
+      "question": "4. Why it is recommended to draw the bending moment diagram on the tension side",
       "answers": {
-        "a": "Roller support",
-        "b": "Determine support reactions",
-        "c": "Ensure that forces and moments are in balance",
-        "d": "Find axial forces"
+        "a": "It looks pleasing",
+        "b": "Ease of visulization to structural design in deciding the face for reinforcement bars",
+        "c": "Positive moments bottom side",
+        "d": "none of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Hinged support",
-        "c": "Fixed support",
-        "d": "Free end"
+
+        "b": "It is recommended to draw the bending moment diagram on the tension side to provide ease of visulization to structural design in deciding the face for reinforcement bars",
+
       },
-      "correctAnswer": "d",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
+    
   ]
 }

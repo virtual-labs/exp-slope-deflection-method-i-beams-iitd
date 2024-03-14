@@ -1,1 +1,1 @@
-#### This experiment aims to determine shear force and bending moment of beams using Slope deflection method.  
+#### This experiment aims to analyse a beam structure using slope deflection method.  

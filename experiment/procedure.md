@@ -30,7 +30,7 @@ Step-5: Shear force diagram.
 
 Step-6: Bending moment diagram.
 
-<img src="images/6.png"/>
+
 
 
 
