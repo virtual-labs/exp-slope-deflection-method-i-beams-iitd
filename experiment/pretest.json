@@ -9,10 +9,9 @@
         "d": "None of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+        "b": "The vertical distance between the axis of a beam before and after loading at a point is typically referred to as the deflection."
+
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -21,51 +20,47 @@
       "question": "2. Which of the following is not an assumption of the slope deflection method?",
       "answers": {
         "a": " Elastic behavior of materials",
-        "b": "Rigid joints with no relative rotation",
+        "b": "Plain section section remains plain",
         "c": "Large deformations",
         "d": "Small deformations"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
+
         "c": "Explanation 2",
-        "d": "Explanation 2"
+
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "3.In the slope deflection equations, the deformations are considered to be caused by_______",
+      "question": "3. Slope deflection method is _________",
       "answers": {
-        "a": "Bending moment",
-        "b": "Shear force",
-        "c": "Axial force",
-        "d": "Moments"
+        "a": "Displacement method",
+        "b": "Force method  ",
+        "c": "Both a & b",
+        "d": "Neither a & b "
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Slope deflection method is a displacement method useful for analyzing statically indeterminate structures, where traditional equilibrium equations alone are insufficient to determine all the internal forces and reactions."
+
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "4. What is the primary objective of using the slope deflection method?",
+      "question": "4. Slope deflection method can be used to analyse which of the following?",
       "answers": {
-        "a": "Calculate deflections in a structure.",
-        "b": "Determine support reactions",
-        "c": "Find the external loads on a structure",
-        "d": "Analyze internal forces and deformations in indeterminate structures"
+        "a": "Statically determinate structures",
+        "b": "Statically indeterminate structures",
+        "c": "Unstable structures",
+        "d": "Simply supported structures"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+        "b": "Slope deflection method is a displacement method used to analyse statically indeterminate structures "
+
       },
-      "correctAnswer": "d",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
@@ -77,10 +72,9 @@
         "d": "Experimental method"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+        "b": "The slope deflection method relies on equilibrium equations and compatibility conditions to solve for unknown displacements and rotations. By considering the relationships between moments, rotations, and slopes."
+
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
