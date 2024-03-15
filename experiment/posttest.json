@@ -58,8 +58,7 @@
       },
       "explanations": {
 
-        "b": "It is recommended to draw the bending moment diagram on the tension side to provide ease of visulization to structural design in deciding the face for reinforcement bars",
-
+        "b": "It is recommended to draw the bending moment diagram on the tension side to provide ease of visulization to structural design in deciding the face for reinforcement bars"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
