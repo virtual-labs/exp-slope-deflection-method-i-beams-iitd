@@ -41,7 +41,7 @@
         "d": "Neither a & b "
       },
       "explanations": {
-        "a": "Slope deflection method is a displacement method useful for analyzing statically indeterminate structures, where traditional equilibrium equations alone are insufficient to determine all the internal forces and reactions."
+        "b": "Slope deflection method is a displacement method useful for analyzing statically indeterminate structures, where traditional equilibrium equations alone are insufficient to determine all the internal forces and reactions."
 
       },
       "correctAnswer": "b",
